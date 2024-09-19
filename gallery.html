@@ -17,11 +17,12 @@
             <img src="images/logo.jpg" height="100" width="100" alt="Logo">
         </a>
         <h1>Book Haven Bookstore</h1>
-        <select>
-            <option>Home</option>
-            <option>Gallery</option>
-            <option>About</option>
-            <option>Custom</option>
+        <select id="nav">
+            <option disabled selected>Nav</option>
+            <option value="index.html">Home</option>
+            <option value="gallery.html">Gallery</option>
+            <option value="about.html">About</option>
+            <option value="custom.html">Custom</option>
         </select>
     </header>
     
@@ -94,7 +95,7 @@
     </section>
 
     <section class="bottomviewcart">
-        <button class="viewcart">View Cart</button>
+        <button class="process">Process Order</button>
     </section>
         
     <footer>
@@ -111,10 +112,10 @@
         
         <section class="newsletter">
             <h4>Sign Up for Our Newsletter</h4>
-        <form>
-            <input type="text">
-            <input type="submit" name="Subscribe" value="Subscribe">
-        </form>
+            <form id="newsletter-form">
+                <input type="text">
+                <input type="submit" name="Subscribe" value="Subscribe">
+            </form>
         </section>
         
         <section class="links">
@@ -127,6 +128,10 @@
         </section>
         
     </footer>
-
+    
 </body>
+
+<script src="js/main.js"></script>
+<script src="js/gallery.js"></script>
+
 </html>
