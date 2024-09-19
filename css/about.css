@@ -1,0 +1,88 @@
+.top-about h2 {
+    text-align: center;
+    padding: 50px;
+    font-size: 3em; 
+    margin-bottom: 20px; 
+}
+
+.top-about p{
+    text-align: center;
+    padding-bottom: 60px;
+    font-size: 1.5em; 
+    line-height: 1.6; 
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+
+/*form*/
+
+
+.about-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.about-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #333333;
+}
+
+.about-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1em;
+    border: 1px solid #333333;
+    border-radius: 5px;
+}
+
+
+.about-form textarea {
+    width: 100%; 
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1em;
+    border: 1px solid #333333;
+    border-radius: 5px;
+}
+
+.about-form input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #333333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.opperating {
+    text-align: center;
+    padding: 50px;
+}
+
+.opperating {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.opperating {
+    font-size: 1.2em;
+    line-height: 1.6; 
+    max-width: 800px; 
+    margin: 0 auto;
+}
+
+.opperating ul {
+    list-style-type: none; 
+
+}

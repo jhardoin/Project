@@ -1,0 +1,32 @@
+.ourbooks {
+    margin-top: 50px; 
+    padding: 50px 20px; 
+    text-align: center; 
+}
+
+.ourbooks h2 {
+    font-size: 3em; 
+    margin-bottom: 20px; 
+}
+
+
+/* books are in books.css */
+
+
+
+.bottomviewcart {
+    margin-top: 2px; 
+    padding: 50px 20px; 
+    text-align: center; 
+}
+
+
+
+
+@media (max-width: 768px) {
+    .shop-delete {
+        display: none;
+    }
+}
+
+

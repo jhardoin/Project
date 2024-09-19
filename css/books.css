@@ -1,0 +1,53 @@
+.shop {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 50px; 
+    padding: 50px; 
+}
+
+
+.shop > section {
+    flex: 1;
+    max-width: 30%;
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.shop > section img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.shop > section h3 {
+    font-size: 2em; 
+    margin-bottom: 10px;
+}
+
+.shop > section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+
+
+@media (max-width: 768px) {
+    .shop {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px; 
+        gap: 20px; 
+    }
+
+    .shop > section {
+        max-width: 90%; 
+        padding: 15px; 
+    }
+}

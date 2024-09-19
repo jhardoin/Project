@@ -3,20 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/about.css">
     <title>About</title>
 </head>
 <body>
-<!--bookworm green back ground
-bookish black font color
-arial
 
-    
-    
-    
-     -->
 
     <header>
-        <img src="logo.jpg" height="100" width="100" alt="Logo">
+        <a href="index.html">
+            <img src="images/logo.jpg" height="100" width="100" alt="Logo">
+        </a>
         <h1>Book Haven Bookstore</h1>
         <select>
             <option>Home</option>
@@ -26,24 +25,28 @@ arial
         </select>
     </header>
 
-    <section>
+    <section class="top-about">
         <h2>About Us</h2>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur ullam quae adipisci ut quibusdam dolorum facere ipsa dolor, debitis maxime omnis dolorem exercitationem. Aspernatur magnam esse mollitia repudiandae, nemo tenetur.</p>
     </section>
 
-    <form>
+    <form class="about-form">
         <label for="name">Name:</label>
         <input type="text" id="name">
+
         <label for="email">Email:</label>
         <input type="text" id="email">
+
         <label for="phone">Phone:</label>
         <input type="text" id="phone">
+
         <label for="information">Information:</label>
-        <input type="text" id="information">
+        <textarea id="information" rows="5"></textarea>
+
         <input type="submit" name="submit" value="submit">
     </form>
 
-    <section>
+    <section class="opperating">
         <h3>Operating Hours</h3>
         <ul>
             <li>Monday–Friday: 9 a.m. to 8 p.m.</li>
@@ -53,24 +56,34 @@ arial
     </section>
 
     <footer>
-        <ul>
-            <li><a href="https://www.facebook.com">Facebook</a></li>
-            <li><a href="https://www.instagram.com">Instagram</a></li>
-            <li><a href="https://www.x.com">Twitter</a></li>
-            <li><a href="https://www.youtube.com">YouTube</a></li>
-            <li><a href="https://www.tiktok.com">TikTok</a></li>
-        </ul>
-        <h4>Sign Up for Our Newsletter</h4>
+
+        <section class="social">
+            <ul>
+                <li><a href="https://www.facebook.com">Facebook</a></li>
+                <li><a href="https://www.instagram.com">Instagram</a></li>
+                <li><a href="https://www.x.com">Twitter</a></li>
+                <li><a href="https://www.youtube.com">YouTube</a></li>
+                <li><a href="https://www.tiktok.com">TikTok</a></li>
+            </ul>
+        </section>
+        
+        <section class="newsletter">
+            <h4>Sign Up for Our Newsletter</h4>
         <form>
             <input type="text">
             <input type="submit" name="Subscribe" value="Subscribe">
         </form>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="custom.html">Custom</a></li>
-        </ul>
+        </section>
+        
+        <section class="links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="custom.html">Custom</a></li>
+            </ul>
+        </section>
+        
     </footer>
 
 </body>

@@ -1,0 +1,86 @@
+footer {
+    background-color: lightgray;
+    padding: 25px 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; 
+}
+
+
+footer .social {
+    text-align: center;
+    margin-bottom: 15px; 
+    width: 100%; 
+}
+
+footer .social ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; 
+    gap: 40px; 
+    width: auto; 
+}
+
+footer .social ul li {
+    font-size: 1.5em; 
+}
+
+
+footer .newsletter {
+    text-align: center;
+    margin-bottom: 15px; 
+}
+
+footer .newsletter h4 {
+    font-size: 1.5em;
+    margin-bottom: 10px; 
+}
+
+
+footer .newsletter form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+footer .newsletter form input[type="text"] {
+    padding: 10px;
+    font-size: 1em;
+    margin-bottom: 10px;
+    width: 100%; 
+    height: 1.5em;
+}
+
+
+footer .newsletter form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 50%; 
+}
+
+footer .links {
+    text-align: center;
+}
+
+footer .links ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px; 
+    width: 80%; 
+    margin-bottom: 15px;
+}
+
+footer .links ul li {
+    font-size: 1.5em;
+}
+
+footer .links ul li a {
+    text-decoration: none;
+    color: #333333;
+}

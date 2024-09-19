@@ -1,0 +1,29 @@
+.viewcart {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    background-color: white; 
+    color: #50633C;
+    border: none;
+    border-radius: 5px;
+}
+.viewcart:hover {
+    background-color: #333333; 
+    color: white;
+}
+
+
+
+.add-to-cart {
+    padding: 10px 20px;
+    background-color: #333333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+
+}
+
+
+.add-to-cart:hover {
+    background-color: #50633C; 
+}
